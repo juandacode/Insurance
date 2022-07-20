@@ -1,0 +1,29 @@
+<section class="home">
+  <div class="container-home">
+    <div class="home-left">
+      <h1 class="home-title">Virtual healthcare for you</h1>
+      <h2>Trafalgar provides progressive, and affordable
+        healthcare, accessible on mobile and online
+        for everyone</h2>
+      <button class="home-call-to-action">Consult Today</button>
+      <div class="home-icon">
+        <button class="button-whatsapp" mat-fab color="primary" aria-label="Example icon button with a home icon">
+          <mat-icon>messenger</mat-icon>
+        </button>
+        <button class="button-whatsapp" mat-fab color="primary" aria-label="Example icon button with a home icon">
+          <mat-icon>messenger</mat-icon>
+        </button>
+        <button class="button-whatsapp" mat-fab color="primary" aria-label="Example icon button with a home icon">
+          <mat-icon>messenger</mat-icon>
+        </button>
+      </div>
+    </div>
+    <div [ngClass]="hiddenDisplay" class="home-right">
+      <img src="../../../assets/images/illustration-home.svg" alt="">
+    </div>
+  </div>
+</section>
+
+<div class="container-chat">
+  <app-button-chat></app-button-chat>
+</div>

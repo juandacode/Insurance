@@ -1,0 +1,39 @@
+section {
+  display: table;
+}
+.example-label {
+  display: table-cell;
+  font-size: 14px;
+  margin-left: 8px;
+  min-width: 120px;
+}
+.example-button-row {
+  display: table-cell;
+  width: 490px;
+}
+.example-button-row .mat-button-base {
+  margin: 8px 8px 8px 0;
+}
+.home-icon {
+  display: flex;
+}
+.example-flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.example-button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  background: var(--primary-color);
+  margin: 0;
+  padding: 1rem 0.5rem;
+  border-radius: 5rem;
+}
+.button-whatsapp {
+  background-color: #25D366;
+  margin: 1rem 0;
+}

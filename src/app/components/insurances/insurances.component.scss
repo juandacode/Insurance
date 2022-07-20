@@ -1,0 +1,33 @@
+.container-insurance{
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.grid-insurance {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(29rem, 1fr));
+  gap: 2rem;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: center;
+
+}
+.insurance-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 40vh;
+  border-radius: 2rem;
+  border-radius: 50px;
+  background: #fff;
+  box-shadow:  20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  margin: 2rem 0;
+}
+.insurance-item-img{
+  margin: 1rem 0;
+}
+.insurance-item-text {
+  margin: 2rem;
+}
